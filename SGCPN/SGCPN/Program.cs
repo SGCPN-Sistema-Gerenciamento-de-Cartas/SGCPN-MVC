@@ -1,4 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<SGCPNContext>(options =>
+    options.UseInMemoryDatabase("SGCPNContext"));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
