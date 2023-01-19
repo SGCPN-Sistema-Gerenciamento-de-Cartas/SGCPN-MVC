@@ -1,8 +1,7 @@
-﻿/*
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using SGCPN.Contexts;
 using SGCPN.Models;
 
 namespace SGCPN.Controllers
@@ -21,15 +20,10 @@ namespace SGCPN.Controllers
       // GET: Patron
       public async Task<IActionResult> Index()
       {
-          var patron = await _context.Patron.ToListAsync();
-          return _context.Patron != null ?
-              //View(await _context.Patron.ToListAsync()) :
-              Ok(patron) :
-              Problem("Entity set 'SGCPNContext.Intitution'  is null.");
-          
+       
           return _context.Patron != null ?
                         View(await _context.Patron.ToListAsync()) :
-                        Problem("Entity set 'SGCPNContext.Intitution'  is null.");
+                        Problem("Entity set 'SGCPNContext.Patron'  is null.");
       
       }
 
@@ -62,7 +56,7 @@ namespace SGCPN.Controllers
       // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
       [HttpPost]
       [ValidateAntiForgeryToken]
-      public async Task<IActionResult> Create([Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Celullar,Address,County,State,AddressComplement,Cep,Description")] Institution institution)
+      public async Task<IActionResult> Create([Bind("Id,PatronName,Password,RgOrCnpj,Email,Gender,Telephone,Cellphone,Address,County,State,AddressComplement,ZipCode")] Patron Patron)
       {
           if (ModelState.IsValid)
           {
@@ -94,7 +88,7 @@ namespace SGCPN.Controllers
       // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
       [HttpPost]
       [ValidateAntiForgeryToken]
-      public async Task<IActionResult> Edit(int id, [Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Celullar,Address,County,State,AddressComplement,Cep,Description")] Institution institution)
+      public async Task<IActionResult> Edit(int id, [Bind("Id,PatronName,Password,RgOrCnpj,Email,Gender,Telephone,Cellphone,Address,County,State,AddressComplement,ZipCode")] Patron Patron)
       {
           if (id != Patron.Id)
           {
@@ -168,5 +162,5 @@ namespace SGCPN.Controllers
   }
 
 }
-*/
+
 
