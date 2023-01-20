@@ -9,15 +9,19 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="Views\Patron\Create.cshtml" />
-    <AdditionalFiles Include="Views\Patron\Delete.cshtml" />
-    <AdditionalFiles Include="Views\Patron\Details.cshtml" />
-    <AdditionalFiles Include="Views\Patron\Edit.cshtml" />
-    <AdditionalFiles Include="Views\Patron\Index.cshtml" />
+    <ProjectReference Include="..\ObjectsSGCPN\ObjectsSGCPN.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
 </Project>

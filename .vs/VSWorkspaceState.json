@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SGCPN",
+    "\\SGCPN\\SGCPN",
+    "\\SGCPN\\SGCPN\\Views",
+    "\\SGCPN\\SGCPN\\Views\\Home"
   ],
+  "SelectedNode": "\\SGCPN\\SGCPN\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

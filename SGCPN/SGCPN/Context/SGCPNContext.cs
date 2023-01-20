@@ -11,5 +11,8 @@ using SGCPN.Models;
         {}
 
         public DbSet<Institution> Institution { get; set; }
+
+        public DbSet<SGCPN.Models.Administrator> Administrator { get; set; }
+        
         public DbSet<Patron> Patron { get; set; }
     }

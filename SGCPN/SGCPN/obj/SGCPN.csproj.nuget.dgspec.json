@@ -4,6 +4,75 @@
     "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {}
   },
   "projects": {
+    "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+        "projectName": "ObjectsSGCPN",
+        "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+        "packagesPath": "C:\\Users\\tanic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +81,103 @@
         "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
         "packagesPath": "C:\\Users\\tanic\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\SGCPN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tanic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj": {
+                "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj"
+              },
+              "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\tanic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tanic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,20 +205,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -65,9 +217,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
