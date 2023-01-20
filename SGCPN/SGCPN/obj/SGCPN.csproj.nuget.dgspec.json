@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thais-almeida\\Documents\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {}
+    "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thais-almeida\\Documents\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {
+    "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thais-almeida\\Documents\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
-        "projectName": "SGCPN",
-        "projectPath": "C:\\Users\\thais-almeida\\Documents\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
-        "packagesPath": "C:\\Users\\thais-almeida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thais-almeida\\Documents\\SGCPN-MVC\\SGCPN\\SGCPN\\obj\\",
+        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+        "projectName": "ObjectsSGCPN",
+        "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\thais-almeida\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -27,7 +32,87 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.OleDb": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
+        "projectName": "SGCPN",
+        "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\SGCPN\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj": {
+                "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj"
+              },
+              "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -58,9 +143,17 @@
               "target": "Package",
               "version": "[6.0.13, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.11, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             }
           },
           "imports": [
@@ -69,8 +162,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -82,7 +174,66 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
