@@ -6,70 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7235988-47e7-4fe6-9d6b-346c3cb1f325" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.vs/SGCPN-MVC/FileContentIndex/23eb3165-9f57-4aeb-87f9-06eabab68e76.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.vs/SGCPN-MVC/FileContentIndex/44b4993c-e8bf-4d53-9633-9091349fb359.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.vs/SGCPN-MVC/FileContentIndex/4ca41562-22fd-458d-94b5-1e647c3cb727.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SGCPN/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.SGCPN/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sgcpn.metadata.v5.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/sgcpn.projects.v5.1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/3b3abd56-14c2-4ae6-8de5-c4d03f7888b8.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/5fb06381-cc96-4374-b4a6-742fca8b3b7f.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/70ed0d40-104c-48eb-9f82-2d1710e25e71.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/714f196b-1b3a-4815-a399-aa44d57b241b.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/SGCPN/v17/.futdcache.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Context/SGCPNContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Properties/serviceDependencies.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Properties/serviceDependencies.local.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Properties/serviceDependencies.local.json.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/SGCPN.csproj.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Views/Patron/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Views/Patron/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Views/Patron/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Views/Patron/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/Views/Patron/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SGCPN/obj/Release/net6.0/SGCPN.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SGCPN/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SGCPN/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/711b1b0b-1644-45b9-bf75-b63cff759ddb.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SGCPN/FileContentIndex/fa1dae73-f85a-4b6a-b3c6-cf48b766a89e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SGCPN/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SGCPN/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Contexts/SGCPNContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Controllers/InstitutionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/Controllers/InstitutionController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Controllers/PatronController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/Controllers/PatronController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Models/Instituicao.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Models/Patron.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/Models/Patron.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/SGCPN.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/SGCPN.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/SGCPN.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.RazorAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/SGCPN.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/project.razor.vs.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/project.razor.vs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/ref/SGCPN.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/ref/SGCPN.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/refint/SGCPN.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/Debug/net6.0/refint/SGCPN.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/SGCPN.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/SGCPN.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/SGCPN.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/SGCPN.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SGCPN/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/SGCPN/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SGCPN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SGCPN/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/SGCPN/Controllers/InstitutionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SGCPN/Models/Institution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SGCPN/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SGCPN/Views/Institution/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SGCPN/Views/Institution/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SGCPN/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
@@ -159,8 +97,23 @@
       <updated>1674066925263</updated>
       <workItem from="1674066948069" duration="5171000" />
       <workItem from="1674136483609" duration="2172000" />
-      <workItem from="1674139226983" duration="2519000" />
+      <workItem from="1674139226983" duration="7496000" />
     </task>
+    <task id="LOCAL-00001" summary="Set Patron View">
+      <created>1674142538076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674142538076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adjust patron controller">
+      <created>1674142570407</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674142570407</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +134,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Set Patron View" />
+    <MESSAGE value="adjust patron controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust patron controller" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
