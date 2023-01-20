@@ -1,8 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-
-
-
+using SGCPN.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SGCPNContext>(options =>
@@ -12,6 +10,9 @@ builder.Services.AddDbContext<SGCPNContext>(options =>
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+
+builder.Services.AddScoped<IUserService, UserService>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
