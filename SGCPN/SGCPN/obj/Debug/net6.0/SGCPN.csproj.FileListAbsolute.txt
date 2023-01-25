@@ -1137,3 +1137,8 @@ C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\refint\SGCPN.dll
 C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\SGCPN.pdb
 C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\SGCPN.genruntimeconfig.cache
 C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\ref\SGCPN.dll
+C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\staticwebassets\msbuild.SGCPN.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\staticwebassets\msbuild.build.SGCPN.props
+C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.SGCPN.props
+C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.SGCPN.props
+C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\obj\Debug\net6.0\staticwebassets.pack.json

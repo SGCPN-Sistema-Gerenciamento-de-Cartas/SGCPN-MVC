@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ALdoupb9OrtgKyrPIfwjnet86CGeP63irMDmHav4vF4h3Ho8mzWF6XNIBiJ9BrwFqPRFwfG0ngwcFtxtwNea1A==",
+  "dgSpecHash": "IRervd3kb7aztNhFH3WZWery+JXakPsgX3ivkkPfS7RZE/16Yn1v4gP8CIRhWuZj7MgD/DDMdWZW4whEi7rgHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,10 @@
     "C:\\Users\\tanic\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
     "C:\\Users\\tanic\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
     "C:\\Users\\tanic\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
-    "C:\\Users\\tanic\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\tanic\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

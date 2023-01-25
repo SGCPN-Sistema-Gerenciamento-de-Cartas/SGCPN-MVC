@@ -12,7 +12,7 @@ builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 
-builder.Services.AddScoped<IUserService, UserService>();
+//builder.Services.AddScoped<IUserService, UserService>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
