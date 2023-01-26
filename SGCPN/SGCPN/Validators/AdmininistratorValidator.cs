@@ -5,10 +5,8 @@ using System.Text.RegularExpressions;
 
 namespace SGCPN.AdministratorValidation
 {
-
     public class AdmininistratorValidator : AbstractValidator<Administrator>
     {
-
         public AdmininistratorValidator()
         {
             RuleFor(x => x.Name)
@@ -120,8 +118,11 @@ namespace SGCPN.AdministratorValidation
                .NotEmpty()
                .WithMessage("O telefone não pode ser vazio")
 
-               .MaximumLength(10)
-               .WithMessage("Formato de telefone inválido");
+               .MinimumLength(20)
+               .WithMessage("O telefone deve conter no mínimo 14 caracteres")
+
+               .MaximumLength(25)
+               .WithMessage("O telefone deve conter no máximo 14 caracteres");
 
             RuleFor(x => x.Number)
 
