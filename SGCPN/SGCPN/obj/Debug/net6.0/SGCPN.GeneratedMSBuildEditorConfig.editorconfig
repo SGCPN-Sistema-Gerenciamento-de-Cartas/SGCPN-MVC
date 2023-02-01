@@ -5,80 +5,101 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SGCPN
 build_property.RootNamespace = SGCPN
-build_property.ProjectDir = C:\Users\guilh\source\repos\SGCPN-MVC\SGCPN\SGCPN\
+build_property.ProjectDir = C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\guilh\source\repos\SGCPN-MVC\SGCPN\SGCPN
+build_property.MSBuildProjectDirectory = C:\Users\tanic\Desktop\SGCPN-MVC\SGCPN\SGCPN
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Create.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Delete.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Details.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Edit.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Index.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Administrator/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Home/Index.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Home/Privacy.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Create.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Delete.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Details.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRpb25cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Edit.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Index.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Institution/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdGl0dXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/Error.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Patron/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Patron/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9uXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Patron/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Patron/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Patron/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0cm9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/_ViewImports.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/_ViewStart.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/guilh/source/repos/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/_Layout.cshtml]
+[C:/Users/tanic/Desktop/SGCPN-MVC/SGCPN/SGCPN/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ur6razbz7v

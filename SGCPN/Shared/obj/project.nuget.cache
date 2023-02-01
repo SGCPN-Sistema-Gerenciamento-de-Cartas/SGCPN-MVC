@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sXzDqX1KqvVMjgy+XYymYF3jg1eL7iB1xfL6zBrZDS6bJgIAtvbaJx7OAKP38egwUorcqk+kGj3+7QKxwqDzoA==",
+  "dgSpecHash": "IXjOPOiNxMzY+N8kopHxvrQajIkCkii+KskYUvJC6G8/ja2jBxQKLtIyUbMaP6BlUFiRq382ytyzg6tgfRo+0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guilh\\source\\repos\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\tanic\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\tanic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
