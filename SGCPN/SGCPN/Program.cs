@@ -1,6 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using SGCPN.Models;
 using SGCPN.Services;
+using SGCPN.Validators;
+using System.Web.WebPages;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SGCPNContext>(options =>
@@ -8,7 +12,7 @@ builder.Services.AddDbContext<SGCPNContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IValidator<Patron>, PatronValidator>();
 var app = builder.Build();
 
 
