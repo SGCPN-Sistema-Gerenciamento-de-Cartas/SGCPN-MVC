@@ -53,7 +53,7 @@ namespace SGCPN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Password,Email,Cnpj,Sex,Telephone,Celullar,Cep,Address,Number,County,State,AddressComplement")] Administrator administrator)
+        public async Task<IActionResult> Create([Bind("Id,Name,Password,Email,Cnpj,Sex,Telephone,Cellphone,ZipCode,Address,Number,County,State,AddressComplement")] Administrator administrator)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace SGCPN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Password,Email,Cnpj,Sex,Telephone,Celullar,Cep,Address,Number,County,State,AddressComplement")] Administrator administrator)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Password,Email,Cnpj,Sex,Telephone,Cellphone,ZipCode,Address,Number,County,State,AddressComplement")] Administrator administrator)
         {
             if (id != administrator.Id)
             {

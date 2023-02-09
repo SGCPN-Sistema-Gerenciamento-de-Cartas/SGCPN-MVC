@@ -12,6 +12,7 @@ builder.Services.AddDbContext<SGCPNContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IValidator<Institution>, InstitutionValidator>();
 builder.Services.AddScoped<IValidator<Patron>, PatronValidator>();
 var app = builder.Build();
 
