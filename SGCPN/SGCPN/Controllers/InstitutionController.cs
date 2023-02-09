@@ -1,18 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
 using SGCPN.Models;
+using SGCPN.Validators;
 
 namespace SGCPN.Controllers
 {
     public class InstitutionController : Controller
     {
+        private IValidator<Institution> _institutionValidator;
+
         private readonly SGCPNContext _context;
 
-        public InstitutionController(SGCPNContext context)
+        public InstitutionController(SGCPNContext context,IValidator<Institution> institutionValidator)
         {
             _context = context;
+            _institutionValidator = institutionValidator;
         }
 
         // GET: Institution
@@ -52,14 +56,18 @@ namespace SGCPN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Celullar,Address,County,State,AddressComplement,Cep,Description")] Institution institution)
+        public async Task<IActionResult> Create([Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Cellphone,Address,County,State,AddressComplement,ZipCode,Description")] Institution institution)
         {
-            if (ModelState.IsValid)
+            ValidationResult result = await _institutionValidator.ValidateAsync(institution);
+
+            if (result.IsValid)
             {
                 _context.Add(institution);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            result.AddToModelState(this.ModelState);
             return View(institution);
         }
 
@@ -84,14 +92,16 @@ namespace SGCPN.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Celullar,Address,County,State,AddressComplement,Cep,Description")] Institution institution)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,InstitutionName,Password,Cnpj,Email,ResponsibleName,Telephone,Cellphone,Address,County,State,AddressComplement,ZipCode,Description")] Institution institution)
         {
             if (id != institution.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            ValidationResult result = await _institutionValidator.ValidateAsync(institution);
+
+            if (result.IsValid)
             {
                 try
                 {
@@ -111,6 +121,7 @@ namespace SGCPN.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            result.AddToModelState(this.ModelState);
             return View(institution);
         }
 

@@ -1,5 +1,4 @@
-﻿
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,15 +19,12 @@ namespace SGCPN.Controllers
             _patronValidator = patronValidator;
         }
 
-
         // GET: Patron
         public async Task<IActionResult> Index()
         {
-
             return _context.Patron != null ?
                           View(await _context.Patron.ToListAsync()) :
                           Problem("Entity set 'SGCPNContext.Patron'  is null.");
-
         }
 
         // GET: Patron/Details/5
@@ -103,7 +99,9 @@ namespace SGCPN.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            ValidationResult result = await _patronValidator.ValidateAsync(Patron);
+
+            if (result.IsValid)
             {
                 try
                 {
@@ -123,6 +121,7 @@ namespace SGCPN.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            result.AddToModelState(this.ModelState);
             return View(Patron);
         }
 
