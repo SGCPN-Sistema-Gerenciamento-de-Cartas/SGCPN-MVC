@@ -32,14 +32,6 @@
           }
         }
       },
-      "FluentValidation/11.4.0": {
-        "runtime": {
-          "lib/net6.0/FluentValidation.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.4.0.0"
-          }
-        }
-      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
