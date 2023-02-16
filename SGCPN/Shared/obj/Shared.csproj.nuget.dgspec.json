@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {}
+    "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+    "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\ariell\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
