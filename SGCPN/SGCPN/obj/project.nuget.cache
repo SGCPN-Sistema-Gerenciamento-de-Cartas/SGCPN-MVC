@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RZfnvw7SQPJSBqNVV4G5SfzPrz4wsfwcjG/w+3Nz/S4/zqquwFojT2Xy2VOCfiOlsvj1XaX82Bt2lL+bSjuknA==",
+  "dgSpecHash": "5jErsB5t21p8qTF9EKnjGaPmaJAtmXbRuXKJ4g9v4i/gWzdd+b6YGJZvZsOnMhqgmu1RKDo0Sg+FG9N+EuLNFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
+  "projectFilePath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\SGCPN\\SGCPN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ariell\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\ariell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

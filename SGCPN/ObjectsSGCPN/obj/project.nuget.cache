@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vExjsE+C9AoVUWLjFFrG+KRHuxsrMJOj+qx8fW+liofZJYTZ5du+TdjPpz7WF395Af2vwfRm/t4tjVqlVsuKQw==",
+  "dgSpecHash": "G5TPOIr4hX+Yxk1cmbE/JngCwdDfHaarFvY3olIoviUnkK+v1rQ110V6R4DI4ZFcidL1QvNxpfs5ovoObtRa3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+  "projectFilePath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ariell\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ariell\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

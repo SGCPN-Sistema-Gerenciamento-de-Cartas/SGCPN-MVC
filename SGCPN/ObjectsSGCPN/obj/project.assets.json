@@ -919,11 +919,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+      "projectUniqueName": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
       "projectName": "ObjectsSGCPN",
-      "projectPath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
+      "projectPath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\ObjectsSGCPN.csproj",
       "packagesPath": "C:\\Users\\ariell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\obj\\",
+      "outputPath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\ObjectsSGCPN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -947,8 +947,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
-              "projectPath": "C:\\Users\\ariell\\Desktop\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
+            "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\ariell\\Desktop\\Ariel\\SGCPN-MVC\\SGCPN\\Shared\\Shared.csproj"
             }
           }
         }

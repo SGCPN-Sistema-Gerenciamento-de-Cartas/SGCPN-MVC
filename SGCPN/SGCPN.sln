@@ -8,9 +8,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGCPN", "SGCPN\SGCPN.csproj
 		{D30873DB-7116-4DC6-B0C8-9792C5CF7CAE} = {D30873DB-7116-4DC6-B0C8-9792C5CF7CAE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectsSGCPN", "ObjectsSGCPN\ObjectsSGCPN.csproj", "{D30873DB-7116-4DC6-B0C8-9792C5CF7CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectsSGCPN", "ObjectsSGCPN\ObjectsSGCPN.csproj", "{D30873DB-7116-4DC6-B0C8-9792C5CF7CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{E1B43257-D2EA-4783-A371-96D95301EF10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{E1B43257-D2EA-4783-A371-96D95301EF10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FA5AAB6A-0134-4625-A3F0-C9D3E6842FE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,10 @@ Global
 		{E1B43257-D2EA-4783-A371-96D95301EF10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1B43257-D2EA-4783-A371-96D95301EF10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1B43257-D2EA-4783-A371-96D95301EF10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5AAB6A-0134-4625-A3F0-C9D3E6842FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5AAB6A-0134-4625-A3F0-C9D3E6842FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5AAB6A-0134-4625-A3F0-C9D3E6842FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5AAB6A-0134-4625-A3F0-C9D3E6842FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
